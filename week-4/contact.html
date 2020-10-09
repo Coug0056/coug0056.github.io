@@ -18,9 +18,9 @@
         </nav>
      </header>
      <!-- Starting the main content of the website -->
-     <Main>
+<Main>
       <!--table-->
-
+<section>
     <h3>We love to hear from you</h3>
     <!--adding a form-->
     <form action="thanks.html" method="GET">
@@ -36,14 +36,26 @@
         <label for="message">Message</label>
         <textarea id="message" name="Message"></textarea>
     </div>
+    <div> 
+        <label for="tickets">How many tickets? (sold in pairs)</label>
+        <imput type="number" id="tickets" name="tickets" min="2" max="10" step="2">
+    </div>
+    <div>
+        <label for="row">Select Row</label>
+        <select id="row" name="row">
+            <option value="front">Front</option>
+            <option value="Centre">Center</option>
+            <option value="Back">Back</option>
+    </div>
     <button type="submit"> Sign me Up!</button>
-    </form>      
-     </Main>
+    </form> 
+</section>    
+</Main>
      <!-- Website Footer -->
-     <Footer>
+<Footer>
          <!-- HTML Entities -->
         Copyright &copy; Reggies Coffee Shop, 2020
-     </Footer>
+</Footer>
 
 </body>
 </html>
